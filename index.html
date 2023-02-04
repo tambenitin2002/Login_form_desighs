@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form --Nitin Tambe Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section Class="bg-animation">
+        <div class="top"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="bottom"></div>
+    </section>
+
+    <div class="container">
+        <form class="glass lohin">
+            <div class="ball"><ion-icon name="log-in-out"></ion-icon></div>
+            <div class="log_email log_box">
+                <input type="email" pattern="[a-zA-z0-9-+._]+@[a-zA-z0-9-+._]+\.[a-z]{2,}"
+                    class="login_email input-style" placeholder="Email Address" id="Email Address" required />
+                <ion-icon class="i" name="mail-outline"></ion-icon>
+
+            </div>
+            <div class="log_pass log_box">
+                <input type="password" class="login_pass input-style" placeholder="Password" required id="password"
+                    value="" />
+                <ion-icon class="i" name="lock-closed-outline"></ion-icon>
+
+
+            </div>
+            <div class="log_remender log_box">
+                <input type="checkbox" class="log_remender--input" id="log--remender" />
+                <lable for="log--remender">Remender me</lable>
+
+            </div>
+            <button class="login_btn" type="submit">Login Now</button>
+
+            <div class="form_text">
+                <p>Not a member?</p>
+                <a class="form_sign--up" href="#">sign up</a>
+            </div>
+
+
+        </form>
+
+
+    </div>
+    
+</body>
+
+</html>
